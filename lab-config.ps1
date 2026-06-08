@@ -5,8 +5,9 @@
 #>
 
 # --- Paths -------------------------------------------------------------------
-$Global:LabRoot   = "C:\CyberLab"                 # where VM disks/configs live
-$Global:IsoDir    = "C:\CyberLab\ISOs"            # put your ISOs here
+# Z: is the second 932 GB SSD (C: only has ~85 GB free; snapshots need ~300 GB+)
+$Global:LabRoot   = "Z:\CyberLab"                 # where VM disks/configs live
+$Global:IsoDir    = "Z:\CyberLab\ISOs"            # put your ISOs here
 
 # Point these at YOUR actual ISO files:
 $Global:Iso = @{
